@@ -1,0 +1,17 @@
+Functionality A+
+
+Program is read from the int array, a loop is implemented to execute the program 
+(program counter is used), code is executed based on instruction opcode and func 
+fields. Support for R-type instructions parsing and execution (add, srl, sll),
+support for R-type instructions parsing and execution (addi, andi, lui).
+Also, support for branch (bne) and word-wise data access (lw,sw)
+instructions parsing and execution, registers are handled correctly in all cases, there is 
+a method to terminate the program (e.g. nop).
+The emulator executes correctly complex MIPS programs, pc register holds realistic 
+text area addresses, support for half-word data access (lhu, sh).
+
+Comments/clarity/organization A
+
+Clear structure (and helpful comments) about variable use. Well commented 
+throughout. Spaced and organised for clarity. Appropriate use of function to organize 
+code.
