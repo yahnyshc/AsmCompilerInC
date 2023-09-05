@@ -11,7 +11,8 @@ void usage() {
 
 int main(int argc, char **argv)
 {
-    char *filename = "simple_add.asm", opt;
+    // Maks 5/Sep/2023 Add foldername before sample asm file.
+    char *filename = "asmfiles/simple_add.asm", opt;
     while((opt = getopt(argc, argv, "i:h")) != -1)
     {
         switch(opt)
